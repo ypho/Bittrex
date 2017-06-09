@@ -10,7 +10,7 @@ Usage
 ======
 Install this package using:
 
-    composer install ypho/bittrex
+    composer require ypho/bittrex
 
 Create an instance of the bittrex object, and call one of the available methods.
 
