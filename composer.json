@@ -1,0 +1,22 @@
+{
+    "name": "ypho/bittrex",
+    "homepage": "http://www.ypho.nl",
+    "keywords": ["cryptocurrency","bittrex","bitcoins"],
+    "description": "API Wrapper for the Bittrex cryptocurrency exchange",
+    "authors": [
+        {
+            "name": "Ivo Geersen",
+            "email": "ivo@ypho.nl"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ypho\\Bittrex\\": "src",
+            "Tests\\": "tests"
+        }
+    }
+}
