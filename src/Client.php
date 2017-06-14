@@ -231,7 +231,7 @@ class Client
         $parameters = [];
         if(!is_null($market)) $parameters['market'] = $market;
 
-        return $this->_call('market/getorderhistory', $parameters, true);
+        return $this->_call('account/getorderhistory', $parameters, true);
     }
 
     /**
